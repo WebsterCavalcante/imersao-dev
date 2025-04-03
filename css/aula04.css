@@ -1,0 +1,61 @@
+body {
+  background: url("https://i.postimg.cc/d0pQ8BD7/Wing-It-Like-Witches-Game-Point.png") no-repeat center
+    center fixed;
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  right: 20px;
+}
+
+.logo img {
+  width: 20%;
+}
+
+/* Caixa principal do jogo */
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 15px #a485ff;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+/* Títulos e textos */
+h2,
+p {
+  color: white;
+  text-align:center;
+}
+#informacoesJogador {
+  color:white;
+  font-size:13pt;
+  text-shadow:2px 1px 3px black;
+}
+#informacoesComputador {
+  color:white;
+  font-size:13pt;
+  text-shadow:2px 1px 3px black;
+}
+#resultadoFinal {
+  color:white;
+  text-align:center;
+  font-family:Georgia;
+  font-size:20pt;
+  text-shadow:1px 1px 3px white;
+}
+.titulo{
+  font-family:Georgia;
+  size:3pt;
+  color:white;
+  text-align:left;
+  text-shadow: 5px 1px 3px black;
+  text-align: center;
+  position: relative;
+  top: 33px;
+}
