@@ -1,0 +1,122 @@
+body {
+  background: url("https://cdn.mos.cms.futurecdn.net/2yj8KSfi4dFBn8QeBtzxrG.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  text-align: right;
+}
+
+.logo img {
+  width: 5%;
+}
+.titulo{
+  font-family: Jaini, 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 5px black;
+  font-size: 24pt;
+  color: #ff1b7b;
+  text-align: center;
+
+}
+
+/* Caixa principal do jogo */
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px #ff1b7b;
+  margin: 30px;
+  padding: 20px;
+  height: 30%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  position: relative;
+  left: 20%;
+  border-radius: 30px;
+}
+
+/* Títulos e textos */
+h2,
+p {
+  color: white;
+}
+
+/* Estrutura do questionário */
+.questionario {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 70%;
+  max-width: 70%;
+  text-align: center;
+}
+
+/* Área de conteúdo */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 20px;
+}
+
+/* Estilo da pergunta */
+.pergunta {
+  font-weight: 600;
+  color: white;
+}
+
+/* Progresso da pergunta */
+.progresso {
+  text-align: end;
+  font-size: small;
+  font-weight: 500;
+  color: white;
+}
+
+/* Área das respostas */
+.respostas {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  position: relative;
+  left: 24%;
+}
+
+/* Botões de resposta */
+.botao-resposta {
+  width: 50%;
+  height: 2.5rem;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background: #ff1b7b;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.botao-resposta:hover {
+  background: #19caca;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+/* Tela de fim do jogo */
+.fim {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fim span {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
