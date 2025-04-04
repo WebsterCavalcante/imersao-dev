@@ -1,2 +1,2 @@
 # imersao-dev
- 5 projetos criadaos durante a 9ª Edição da Imersão Dev
+ estou participando da 9ª Edição da Imersão Dev onde eu vou criar 5 projetos em Javascript
